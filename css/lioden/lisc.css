@@ -10,6 +10,12 @@
 
 /* Content */
 
+  /* Top navbar */
+
+    .navbar {
+      background: rgba(190, 247, 90, .75);
+    }
+
   /* Left column */
 
     .main {
