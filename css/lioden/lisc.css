@@ -32,12 +32,12 @@
   /* Main thing */
 
     .main {
-      background: rgba(0, 0, 0, .75);
+      background: rgba(0, 0, 0, .3);
       backdrop-filter: blur(4px);
 
       border: none;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 
       width: 85%;
     }
