@@ -10,7 +10,15 @@
 
 /* Content */
 
-  /* Top navbar */
+  /* Topbar */
+
+    .topbar {
+      background: rgba(124, 171, 24, .5);
+      backdrop-filter: blur(4px);
+      width: unset!important;
+    }
+
+  /* Navbar */
 
     .navbar {
       background: rgba(190, 247, 90, .5);
