@@ -1,3 +1,5 @@
+/* CSS written by Fetysz from scratch */
+
 /* Background */
 
   body {
@@ -24,7 +26,7 @@
       background: rgba(190, 247, 90, .5);
     }
 
-  /* Left column */
+  /* Main thing */
 
     .main {
       background: rgba(0, 0, 0, .75);
@@ -32,6 +34,8 @@
 
       border: none;
       box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+
+      width: 85%;
     }
 
   /* Right column */
