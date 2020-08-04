@@ -1,15 +1,27 @@
-body {
-  background: url('https://cdn.discordapp.com/attachments/647556737507000334/740307979118837951/et6ow3dkxll31.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+/* Background */
 
-.main {
-  background: rgba(0, 0, 0, .55);
-}
+  body {
+    background: url('https://cdn.discordapp.com/attachments/647556737507000334/740307979118837951/et6ow3dkxll31.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
-.col-md-9 {
-  background: transparent;
-}
+/* Content */
+
+  /* Left column */
+
+    .main {
+      background: rgba(0, 0, 0, .75);
+      backdrop-filter: blur(4px);
+
+      border: none;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+    }
+
+  /* Right column */
+
+    .col-md-9 {
+      background: transparent;
+    }
