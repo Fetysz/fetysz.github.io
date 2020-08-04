@@ -1,5 +1,6 @@
 body {
   background: url('https://tvn24.pl/najnowsze/cdn-zdjecie-z9z2lj-oredzie-prezydenta-andrzeja-dudy-4334630/oredzie+duda+z+fb.jpeg');
+  animation: duda 5s infinite;
 }
 
 .main {
@@ -9,3 +10,57 @@ body {
 .col-md-9 {
   background: transparent;
 }
+
+@keyframes duda {
+		0% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie13dd2a0136baeb2159fa18829d6e898c-andrzej-duda-w-koszalinie-4935281/1cefe8b6-cd87-4a43-808e-deafcacacac5.jpg')}
+		2% {background-image: url('https://i.wpimg.pl/2000x1331/d.wpimg.pl/838163758--266368516/andrzej-duda.jpg')}
+		4% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie-z9z2lj-oredzie-prezydenta-andrzeja-dudy-4334630/oredzie+duda+z+fb.jpeg')}
+		6% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/1239078147--96060561/andrzej-duda.jpg')}
+		8% {background-image: url('https://www.drawsko.pl/asp/galeria/20190712prezyent/_mg_9837.jpg')}
+		10% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/631195748--826310874/duda.jpg')}
+		12% {background-image: url('https://www.radio.bialystok.pl/src/385/dfe43fbed63a660fbc12607fe85a88ce')}
+		14% {background-image: url('https://radioszczecin.pl/serwis_informacyjny/pliki/2018/2018-05-04_152541751610.jpg')}
+		16% {background-image: url('https://s2.kozaczek.pl/wp-content/uploads/sites/2/2020/04/21/Duda-g.jpg')}
+		18% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1331/d.wpimg.pl/1006175392-1203906148/andrzej-duda.jpg')}
+		20% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/1311497780-98485348/duda.jpg')}
+		22% {background-image: url('https://i.wpimg.pl/1920x1280/i.wpimg.pl/2000x0/d.wpimg.pl/388240253-69541484/andrzej-duda.jpg')}
+		24% {background-image: url('https://www.tvmalbork.pl/data/articles/21104_prezydent_andrzej_duda_w_malborku_zobacz_wideo_i_fotorelacje.jpg')}
+		26% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/1939x1290/d.wpimg.pl/227787409-1467014089/andrzej-duda.jpg')}
+		28% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/1311497780-98485348/duda.jpg')}
+		30% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie-05v3td-duda-s02-4616102/duda-s02.jpg')}
+		32% {background-image: url('https://miamifakty.com/wp-content/uploads/2020/06/120698/miami-fakty-andrzej-duda-ulaskawil-jana-spiewaka-prezydent-wyjasnia.jpg')}
+		34% {background-image: url('https://i.wpimg.pl/1920x1280/i.wpimg.pl/2000x0/d.wpimg.pl/388240253-69541484/andrzej-duda.jpg')}
+		36% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/465868527--2068508682/andrzej-duda.jpg')}
+		38% {background-image: url('https://ocdn.eu/images/pulscms/YmY7MDA_/de3fae409bca97f56f663728559f3f7a.jpg')}
+		40% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie-ydd0xm-duda-konfa01-4605583/duda+konfa_01.jpg')}
+		42% {background-image: url('https://www.radio.bialystok.pl/src/383/aa688aa46f97a80165356403f984ba3b')}
+		44% {background-image: url('https://tvs.pl/wp-content/uploads/2018/12/0056_andrzej_duda_raciborz_0712-1.jpeg')}
+		46% {background-image: url('https://miamifakty.com/wp-content/uploads/2020/05/118241/miami-fakty-andrzej-duda-i-mateusz-morawiecki-zabrali-glos-ws-gigantycznego-wsparcia-z-ue-w-cieniu-pandemii-toczyly-sie-bardzo-trudne-negocjacje.jpg')}
+		48% {background-image: url('https://tvs.pl/wp-content/uploads/2019/01/2601dudakarczmapiwna_OK.jpeg')}
+		50% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1334/d.wpimg.pl/778418813--1591646713/andrzej-duda.jpg')}
+		52% {background-image: url('https://i.wpimg.pl/0/2000x1363/d.wpimg.pl/1429252658--1234380307/duda.jpg')}
+		54% {background-image: url('https://i.wpimg.pl/1920x1280/i.wpimg.pl/2000x0/filerepo.grupawp.pl/api/v1/display/embed/d427f9cd-720d-45c6-9e06-6178cd0bd7ef')}
+		56% {background-image: url('https://i.wpimg.pl/0/2000x1333/d.wpimg.pl/435803652--400018382/duda.jpg')}
+		58% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie-unc1sd-duda-4623190/duda+sztab+04.jpg')}
+		60% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/1125370383--1963466646/andrzej-duda.jpg')}
+		62% {background-image: url('https://www.radio.bialystok.pl/src/385/8f40da921856d8e742556051df9bb244')}
+		64% {background-image: url('https://www.dsi.net.pl/media/k2/items/cache/abbf0ea47c8311960b51efaceb8eeb8a_L.jpg')}
+		66% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1331/d.wpimg.pl/1178556334--1210966184/duda.jpg')}
+		68% {background-image: url('https://www.radio.bialystok.pl/src/385/25f28da213c27c1ca3b0b1fe938e8f9b')}
+		70% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1336/d.wpimg.pl/748585782-1356058760/andrzej-duda.jpg')}
+		72% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/808231455--1615701379/duda.jpg')}
+		74% {background-image: url('https://www.radio.bialystok.pl/src/385/3c49f524ba401fbf98deafda73623f79')}
+		76% {background-image: url('https://i.wpimg.pl/0/1920x1080/d.wpimg.pl/2119860092--755732120/andrzej-duda.jpg')}
+		78% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie-7zwnzn-prezydent-andrzej-duda-4602376/duda.jpg')}
+		80% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecief76593ad004d01c69503c848be01a706-konflikt-duda-macierewicz-wplywa-na-funkcjonowanie-polskiej-armii-material-magazynu-polska-i-swiat-z-20-11-4486979/216cbc2a-70d4-4ea0-a584-b225587a3b7a.jpeg')}
+		82% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1334/d.wpimg.pl/1164804123-715837878/duda.jpg')}
+		84% {background-image: url('https://telewizjaox.pl/photoreports/news-files/thumbnails/w2000-h2000-ez/upload/wiadomosci/zip/2020/03/17/1841/asdasddas.jpg')}
+		86% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1336/d.wpimg.pl/1652906663-487095639/andrzej-duda.jpg')}
+		88% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1333/d.wpimg.pl/611811950--655796792/andrzej-duda-tomasz.jpg')}
+		90% {background-image: url('https://i.wpimg.pl/0/1920x1080/d.wpimg.pl/174362608-238706582/duda.jpg')}
+		92% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1334/d.wpimg.pl/1366651720-1787806499/duda.jpg')}
+		94% {background-image: url('https://i.wpimg.pl/0/3000x2105/d.wpimg.pl/198502532--182497713/duda.jpg')}
+		96% {background-image: url('https://i.wpimg.pl/1920x1080/i.wpimg.pl/2000x1331/d.wpimg.pl/135960842-1808242117/andrzej-duda.jpg')}
+		98% {background-image: url('https://i.wpimg.pl/0/2000x1511/d.wpimg.pl/940882132-1081602058/andrzej-duda.jpg')}
+		100% {background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie13dd2a0136baeb2159fa18829d6e898c-andrzej-duda-w-koszalinie-4935281/1cefe8b6-cd87-4a43-808e-deafcacacac5.jpg')}
+	}
