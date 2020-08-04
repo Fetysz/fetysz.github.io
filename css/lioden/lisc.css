@@ -1,7 +1,9 @@
 body {
-  background: url('https://tvn24.pl/najnowsze/cdn-zdjecie-z9z2lj-oredzie-prezydenta-andrzeja-dudy-4334630/oredzie+duda+z+fb.jpeg') fixed no-repeat;
+  background: url('https://tvn24.pl/najnowsze/cdn-zdjecie-z9z2lj-oredzie-prezydenta-andrzeja-dudy-4334630/oredzie+duda+z+fb.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover
+  background-size: cover;
   animation: duda 300s infinite;
 }
 
