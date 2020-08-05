@@ -262,6 +262,10 @@
         background: transparent;
       }
 
+      .sidebar h3 {
+        color: #ddd;
+      }
+
       /* Panels */
 
         .panel {
