@@ -100,6 +100,10 @@
          text-shadow: 1px 1px 1px rgba(124, 171, 24, .5);
        }
 
+       .select-control:hover, button.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+        background: rgba(124, 171, 24, .75);
+       }
+
       /* Bookmark */
 
         .breadcrumb {
