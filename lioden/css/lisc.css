@@ -175,6 +175,10 @@
           border-radius: 0 0 8px 8px;
         }
 
+        .table .left {
+          background: transparent;
+        }
+
         .table td.right,
         .table tr.right > td[style*="width: 200px;"] {
           background: rgba(157, 204, 57, .15);
