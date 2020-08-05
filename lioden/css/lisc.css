@@ -155,7 +155,7 @@
         }
 
         .table td.right,
-        .table tr[style*="width: 200px;"] {
+        .table tr > div[style*="width: 200px;"] {
           background: rgba(157, 204, 57, .15);
         }
 
