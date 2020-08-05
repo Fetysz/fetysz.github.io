@@ -146,10 +146,14 @@
           border-radius: 0 0 8px 8px;
         }
 
-        /* Lion stats */
+        /* Inner table */
 
           .inner-table .left {
             background: rgba(124, 171, 24, .5);
+          }
+
+          .inner-table .right {
+            background: rgba(157, 204, 57, .5);
           }
 
     /* Right column */
