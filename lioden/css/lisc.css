@@ -211,7 +211,7 @@
           }
 
       /* Account options */
-      
+
         /* Cards */
 
           .item {
@@ -261,6 +261,18 @@
       .col-md-9 {
         background: transparent;
       }
+
+      /* Panels */
+
+        .panel {
+          background: rgba(124, 171, 24, .15);
+          border-radius: 8px;
+        }
+
+        .col-md-3 .panel {
+          border: 1px solid transparent;
+          box-shadow: none;
+        }
 
 /* Footer */
 
