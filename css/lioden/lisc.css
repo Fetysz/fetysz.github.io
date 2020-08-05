@@ -27,6 +27,8 @@
 
     .row:first-child {
       margin-top: -50px;
+
+      border-radius: 8px 8px 0 0;
     }
 
     .navbar {
@@ -36,12 +38,12 @@
   /* Main thing */
 
     .main {
+      background: transparent;
       backdrop-filter: blur(4px);
 
       padding-top: 50px;
 
       border: none;
-      border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 
       width: 85%;
