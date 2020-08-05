@@ -63,6 +63,16 @@
 
     /* Alerts */
 
+      /* Success */
+
+        .alert-success {
+          background: rgba(124, 171, 24, .3);
+
+          border-color: rgba(124, 171, 24, .3);
+
+          color: rgba(124, 171, 24, 1);
+        }
+
       /* Danger */
 
         .alert-danger {
