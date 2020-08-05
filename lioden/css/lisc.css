@@ -320,7 +320,7 @@
 
   /* width */
   ::-webkit-scrollbar {
-    width: 2px;
+    width: 12px;
   }
 
   /* Track */
