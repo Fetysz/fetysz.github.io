@@ -50,12 +50,36 @@
       width: 85%;
     }
 
-    /* Den thongs */
+    /* Den thongs */  
 
       .row:nth-child(2) {
         background: rgba(0, 0, 0, .3);
       }
 
+      /* Buttons */
+
+       .select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
+         background: rgba(124, 171, 24, .5);
+
+         border: 1px solid rgba(124, 171, 24, .5);
+
+         color: #000;
+         text-shadow: 1px 1px 1px rgba(124, 171, 24, .5);
+       }
+
+      /* Bookmark */
+
+        .breadcrumb {
+          background: rgba(124, 171, 24, .5);
+        }
+
+        .breadcrumb input[name="bookmark"] {
+
+        }
+
+
+
+    
       
 
     /* Right column */
