@@ -219,7 +219,7 @@
           /* Input */
 
             input[type="text"], 
-            input[type="password"], {
+            input[type="password"] {
               background: rgba(124, 171, 24, .15);
               border: 2px inset transparent
             }
