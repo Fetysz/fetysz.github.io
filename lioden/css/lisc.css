@@ -176,7 +176,7 @@
         }
 
         .table .left {
-          background: transparent;
+          background: rgba(124, 171, 24, .3);
         }
 
         .table td.right,
