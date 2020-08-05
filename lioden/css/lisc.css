@@ -330,6 +330,10 @@
     background-size: 100vw 100vh
   }
 
+  ::-webkit-scrollbar-thumb {
+    background: rgba(124, 171, 24, .15);
+  }
+
 /* Footer */
 
   /* ItS mE */
