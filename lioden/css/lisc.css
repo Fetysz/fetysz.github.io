@@ -284,6 +284,10 @@
             background: rgba(124, 171, 24, .15);
           }
 
+          .progress div {
+            color: #ddd;
+          }
+
 /* Footer */
 
   /* ItS mE */
