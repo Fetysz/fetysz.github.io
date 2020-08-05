@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100vw 100vh;
 
     color: #ddd;
   }
@@ -319,22 +319,14 @@
 
   /* width */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 2px;
   }
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: url('https://cdn.discordapp.com/attachments/647556737507000334/740307979118837951/et6ow3dkxll31.jpg');
+    background-position: right;
+    background-size: 100vw 100vh
   }
 
 /* Footer */
