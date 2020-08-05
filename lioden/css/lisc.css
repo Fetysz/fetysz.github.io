@@ -131,7 +131,7 @@
       /* Tables */
 
         .table {
-          border: 1px solid transparent;
+          border: none;
         }
 
         .table .top, .table th {
@@ -145,6 +145,12 @@
 
           border-radius: 0 0 8px 8px;
         }
+
+        /* Lion stats */
+
+          .inner-table .left {
+            background: rgba(124, 171, 24, .5);
+          }
 
     /* Right column */
 
