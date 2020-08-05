@@ -116,7 +116,7 @@
         .select-control:hover, button.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
           background: rgba(124, 171, 24, .75);
 
-          border: none;
+          border: 1px solid transparent;
 
           color: #000;
           text-shadow: none;
