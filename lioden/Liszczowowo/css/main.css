@@ -335,6 +335,13 @@
           background: rgba(124, 171, 24, .25);
         }
 
+/* Cave Exc. */
+
+  .featured-lion,
+  .featured-lion > img {
+    border-radius: 8px;
+  }
+
 /* Scrollbar */
 
   ::-webkit-scrollbar {
