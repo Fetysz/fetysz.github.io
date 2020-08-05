@@ -10,7 +10,18 @@
     background-size: cover;
   }
 
+
 /* Content */
+
+  /* URLs */
+
+    a, a:visited, a:active {
+      color: #333
+    }
+
+    a:hover {
+      color: #000;
+    }
 
   /* Topbar */
 
