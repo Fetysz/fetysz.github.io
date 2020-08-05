@@ -130,6 +130,10 @@
 
       /* Tables */
 
+        .table {
+          border: 1px solid transparent;
+        }
+
         .table .top, .table th {
           background: rgba(124, 171, 24, .5);
 
