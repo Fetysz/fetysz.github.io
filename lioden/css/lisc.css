@@ -278,6 +278,12 @@
           box-shadow: none;
         }
 
+        /* Progress bars */
+
+          .progress {
+            background: rgba(124, 171, 24, .15);
+          }
+
 /* Footer */
 
   /* ItS mE */
