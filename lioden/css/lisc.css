@@ -206,7 +206,7 @@
   /* ItS mE */
 
     .container.footer:before {
-      content: '\u004300\u005300\u005300 \u006d00\u006100\u006400\u006500 \u006200\u007900 \u004600\u006500\u007400\u007900\u007300\u007a00 \u002800\u002300\u003100\u003900\u003700\u003600\u003400\u003400\u002900';
+      content: 'CSS made by Fetysz (#197644)';
       margin-right: auto;
       margin-left: auto;
    }
