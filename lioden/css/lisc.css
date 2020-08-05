@@ -305,6 +305,7 @@
         #chatMessagePinned.s-chat-message__pinned {
           background: rgba(124, 171, 24, .15) url(//static.lioden.com/images/layout/sticky.png) no-repeat 10px 6px;
           color: #ddd;
+          border-bottom: 2px solid transparent!important;
         }
 
         .s-chat-message:nth-child(odd) {
