@@ -104,18 +104,23 @@
 
       /* Buttons */
 
-       .select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
-         background: rgba(124, 171, 24, .5);
+        .select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
+          background: rgba(124, 171, 24, .5);
 
-         border: 1px solid rgba(124, 171, 24, .5);
+          border: 1px solid rgba(124, 171, 24, .5);
 
-         color: #000;
-         text-shadow: 1px 1px 1px rgba(124, 171, 24, .5);
-       }
+          color: #000;
+          text-shadow: 1px 1px 1px rgba(124, 171, 24, .5);
+        }
 
-       .select-control:hover, button.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
-        background: rgba(124, 171, 24, .75);
-       }
+        .select-control:hover, button.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+          background: rgba(124, 171, 24, .75);
+
+          border: none;
+
+          color: #000;
+          text-shadow: none;
+        }
 
       /* Bookmark */
 
