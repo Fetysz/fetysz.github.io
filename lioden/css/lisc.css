@@ -54,14 +54,6 @@
         content: url('https://fetysz.github.io/lioden/img/logo-full-2.png')
       }
 
-    /* Den header */
-
-      .floatright + h1 {
-        color: #ddd;
-        text-align: center;
-        text-transform: capitalize;
-      }
-
     /* Links */
 
       .navbar-default .navbar-nav > li > a {
@@ -117,6 +109,14 @@
       .row:nth-child(2) {
         background: rgba(0, 0, 0, .3);
       }
+
+      /* Den header */
+
+        .floatright + h1 {
+          color: #ddd;
+          text-align: center;
+          text-transform: capitalize;
+        }
 
       /* Lion Image */
 
