@@ -316,24 +316,6 @@
           background: rgba(124, 171, 24, .25);
         }
 
-/* Scrollbars */
-
-  /* width */
-  ::-webkit-scrollbar {
-    width: 12px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: url('https://cdn.discordapp.com/attachments/647556737507000334/740307979118837951/et6ow3dkxll31.jpg');
-    background-position: right;
-    background-size: 100vw 100vh
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: rgba(124, 171, 24, .15);
-  }
-
 /* Footer */
 
   /* ItS mE */
