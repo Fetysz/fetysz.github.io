@@ -286,6 +286,7 @@
 
           .progress div {
             color: #ddd;
+            text-shadow: 1px 1px 1px #aaa;
           }
 
 /* Footer */
