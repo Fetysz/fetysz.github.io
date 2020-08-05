@@ -147,7 +147,7 @@
 
       /* Cards */
 
-        .left {
+        div .left {
           background: rgba(124, 171, 24, .3);
         }
 
