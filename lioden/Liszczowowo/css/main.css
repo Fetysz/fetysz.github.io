@@ -195,6 +195,16 @@
           .inner-table .right {
             background: rgba(157, 204, 57, .5);
           }
+        
+        /* Links */
+
+          .table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+            color: #aaa;
+          }
+
+          .table .top a:hover, .table th a:hover {
+            color: #eee;
+          }
     
       /* Grids */
 
