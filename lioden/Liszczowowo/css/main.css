@@ -280,6 +280,7 @@
         background: transparent;
       }
 
+      .sidebar h3,
       h3 {
         color: #ddd;
       }
