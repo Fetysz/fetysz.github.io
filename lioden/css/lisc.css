@@ -148,6 +148,10 @@
           border-radius: 0 0 8px 8px;
         }
 
+        .table .right {
+          background: rgba(157, 204, 57, .15);
+        }
+
         /* Inner table */
 
           .inner-table .left {
@@ -174,6 +178,10 @@
           background: rgba(124, 171, 24, .5);
 
           border: 0;
+        }
+
+        .mound-grid > img {
+          border-radius: 8px;
         }
 
     /* Right column */
