@@ -315,6 +315,12 @@
           background: rgba(124, 171, 24, .25);
         }
 
+/* Scrollbars */
+
+  ::-webkit-scrollbar, ::-webkit-scrollbar-button, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    background: rgba(124, 171, 24, .15);
+  }
+
 /* Footer */
 
   /* ItS mE */
