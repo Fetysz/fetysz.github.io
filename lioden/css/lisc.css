@@ -307,6 +307,14 @@
           color: #ddd;
         }
 
+        .s-chat-message:nth-child(odd) {
+          background: rgba(124, 171, 24, .15);
+        }
+
+        .s-chat-message:nth-child(even) {
+          background: rgba(124, 171, 24, .25);
+        }
+
 /* Footer */
 
   /* ItS mE */
