@@ -114,6 +114,7 @@
 
         .floatright + h1 {
           color: #ddd;
+          font-weight: 700;
           text-align: center;
           text-transform: capitalize;
         }
@@ -142,6 +143,12 @@
 
           color: #000;
           text-shadow: none;
+        }
+
+      /* Cards */
+
+        .left {
+          background: rgba(124, 171, 24, .3);
         }
 
       /* Bookmark */
