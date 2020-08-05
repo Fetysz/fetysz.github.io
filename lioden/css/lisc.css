@@ -1,5 +1,3 @@
-/* CSS written by Fetysz from scratch */
-
 /* Background */
 
   body {
@@ -202,3 +200,13 @@
       .col-md-9 {
         background: transparent;
       }
+
+/* Footer */
+
+  /* ItS mE */
+
+    .container.footer:before {
+      content: 'CSS made by Fetysz (#197644)';
+      margin-right: auto;
+      margin-left: auto;
+   }
