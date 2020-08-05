@@ -104,6 +104,12 @@
         background: rgba(0, 0, 0, .3);
       }
 
+      /* Lion Image */
+
+        #lion_image > div > img {
+          border-radius: 8px;
+        }
+
       /* Buttons */
 
         .select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
