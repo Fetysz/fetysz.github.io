@@ -289,6 +289,19 @@
             text-shadow: 1px 1px 1px #aaa;
           }
 
+      /* Chat */
+
+        .s-chat-sidebar #label_currentChannel {
+          background: rgba(124, 171, 24, .15);
+
+          border: 1px solid transparent;
+          border-radius: 8px;
+        } 
+
+        #chatMessagePinned.s-chat-message__pinned {
+          background: rgba(124, 171, 24, .15) url(//static.lioden.com/images/layout/sticky.png) no-repeat 10px 6px;
+        }
+
 /* Footer */
 
   /* ItS mE */
