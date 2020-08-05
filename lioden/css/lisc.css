@@ -46,6 +46,19 @@
       border-radius: 8px 8px 0 0;
     }
 
+    /* Links */
+
+      .navbar-default .navbar-nav > li > a {
+        color: #000
+      }
+      
+      .navbar-default .navbar-nav>li>a:hover, 
+      .navbar-default .navbar-nav>li>a:focus {
+        background: rgba(124, 171, 24, .3);
+
+        color: #000;
+      }
+
   /* Main thing */
 
     .main {
