@@ -30,7 +30,8 @@
     }
 
     .navbar {
-      background: rgba(190, 247, 90, .5);
+      background: rgba(124, 171, 24, .5);
+      backdrop-filter: blur(4px);
     }
 
   /* Main thing */
