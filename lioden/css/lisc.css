@@ -38,10 +38,6 @@
 
   /* Navbar */
 
-    .row:first-child {
-      margin-top: -50px;
-    }
-
     .navbar {
       background: rgba(124, 171, 24, .5);
 
@@ -72,8 +68,6 @@
     .main {
       background: transparent;
       backdrop-filter: blur(4px);
-
-      padding-top: 50px;
 
       border: none;
       border-radius: 8px;
