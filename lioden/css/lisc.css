@@ -48,6 +48,12 @@
       border-radius: 8px 8px 0 0;
     }
 
+    /* Logo */
+
+      img[alt="Lioden"] {
+        content: url('https://fetysz.github.io/lioden/img/logo-full-2.png')
+      }
+
     /* Links */
 
       .navbar-default .navbar-nav > li > a {
