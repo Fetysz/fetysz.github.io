@@ -210,29 +210,55 @@
             border-radius: 8px;
           }
 
-          /* Input */
+      /* Account options */
 
-            input[type="text"], 
-            input[type="password"] {
-              background: rgba(124, 171, 24, .15);
-              border: 2px inset transparent
-            }
+        .col-xs-6.text-center {
+          margin-top: 50px;
+        }
+        
+        /* Cards */
 
-            /* textarea */
+          .item {
+            background: rgba(124, 171, 24, .15);
 
-              textarea {
-                background: rgba(124, 171, 24, .15);
-                border: 1px solid transparent;
-                color: #ddd;
-              }
+            border: 1px solid transparent;
+            border-radius: 8px;
 
-            /* chooser */
+            color: #ddd;
+          }
 
-              select {
-                background: rgba(124, 171, 24, .15);
-                border: 1px solid transparent;
-                color: #ddd;
-              }
+          .item-header {
+            background: rgba(124, 171, 24, .15);
+
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+
+            color: unset;
+          }
+
+      /* Input */
+
+        input[type="text"], 
+        input[type="password"] {
+          background: rgba(124, 171, 24, .15);
+          border: 2px inset transparent
+        }
+
+        /* textarea */
+
+          textarea {
+            background: rgba(124, 171, 24, .15);
+            border: 1px solid transparent;
+            color: #ddd;
+          }
+
+        /* chooser */
+
+          select {
+            background: rgba(124, 171, 24, .15);
+            border: 1px solid transparent;
+            color: #ddd;
+          }
 
     /* Right column */
 
