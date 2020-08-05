@@ -194,27 +194,49 @@
             background: rgba(157, 204, 57, .5);
           }
     
-    /* Grids */
+      /* Grids */
 
-      /* Cave */
+        /* Cave */
 
-        .cave-grid {
-          background: rgba(124, 171, 24, .5);
+          .cave-grid {
+            background: rgba(124, 171, 24, .5);
 
-          border: 0;
-        }
-      
-      /* Mound */
+            border: 0;
+          }
+        
+        /* Mound */
 
-        .mound-grid {
-          background: rgba(124, 171, 24, .5);
+          .mound-grid {
+            background: rgba(124, 171, 24, .5);
 
-          border: 0;
-        }
+            border: 0;
+          }
 
-        .mound-grid > img {
-          border-radius: 8px;
-        }
+          .mound-grid > img {
+            border-radius: 8px;
+          }
+
+          /* Input */
+
+            input[type="text"], 
+            input[type="password"], {
+              background: rgba(124, 171, 24, .15);
+              border: 2px inset transparent
+            }
+
+            /* textarea */
+
+              textarea {
+                background: rgba(124, 171, 24, .15);
+                color: #ddd;
+              }
+
+            /* chooser */
+
+              select {
+                background: rgba(124, 171, 24, .15);
+                color: #ddd;
+              }
 
     /* Right column */
 
