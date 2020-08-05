@@ -154,7 +154,8 @@
           border-radius: 0 0 8px 8px;
         }
 
-        .table td.right {
+        .table td.right,
+        .table tr[style*="width: 200px;"] {
           background: rgba(157, 204, 57, .15);
         }
 
