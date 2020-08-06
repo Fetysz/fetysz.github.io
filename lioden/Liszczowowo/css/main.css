@@ -231,6 +231,12 @@
           .mound-grid > img {
             border-radius: 8px;
           }
+      
+      /* Dynstaites and those other */
+
+        .dynastylist img {
+          border-radius: 8px;
+        }
 
       /* Account options */
 
