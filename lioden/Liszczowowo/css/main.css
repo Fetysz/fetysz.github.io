@@ -339,6 +339,13 @@
           background: rgba(124, 171, 24, .25);
         }
 
+        /* Emote Picker */
+
+          .emoteList {
+            background: rgba(124, 171, 24, .25);
+            backdrop-filter: blur(4px);
+          }
+
 /* Cave Exc. */
 
   .featured-lion,
