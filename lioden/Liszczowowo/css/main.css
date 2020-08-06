@@ -342,8 +342,19 @@
         /* Emote Picker */
 
           .emoteList {
-            background: rgba(124, 171, 24, .25);
-            backdrop-filter: blur(4px);
+            background: rgba(124, 171, 24, .5);
+
+            border: 2px solid transparent;
+            border-radius: 8px;
+          }
+
+          .s-chat-sidebar .emoteList::before {
+            border-top-color: transparent;
+
+          }
+
+          .s-chat-sidebar .emoteList::after {
+            border-top-color: rgba(124, 171, 24, .5);
           }
 
 /* Cave Exc. */
