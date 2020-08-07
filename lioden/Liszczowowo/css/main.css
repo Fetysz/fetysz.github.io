@@ -1,9 +1,24 @@
 /* What are you even looking for */
 
+/* CSS written by Fetysz (#197644) */
+
+/* Vars */
+
+  :root {
+    --bg: url('https://cdn.discordapp.com/attachments/647556737507000334/740307979118837951/et6ow3dkxll31.jpg');
+    --logo: url('https://fetysz.github.io/lioden/Liszczowowo/img/logo-full-2.png');
+    
+    --lime-0: rgba(124, 171, 24, 1);
+    --lime-1: rgba(124, 171, 24, .15);
+    --lime-2: rgba(124, 171, 24, .3);
+    --lime-3: rgba(124, 171, 24, .5);
+    --lime-4: rgba(124, 171, 24, .75);
+  }
+
 /* Background */
 
   body {
-    background: url('https://cdn.discordapp.com/attachments/647556737507000334/740307979118837951/et6ow3dkxll31.jpg');
+    background: var(--bg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +43,7 @@
   /* Topbar */
 
     .topbar {
-      background: rgba(124, 171, 24, .5);
+      background: var(--lime-3);
       backdrop-filter: blur(4px);
 
       border-radius: 0 0 8px 8px;
@@ -39,7 +54,7 @@
   /* Navbar */
 
     .navbar {
-      background: rgba(124, 171, 24, .5);
+      background: var(--lime-3);
 
       border-radius: 8px 8px 0 0;
     }
@@ -47,7 +62,7 @@
     /* Logo */
 
       img[alt="Lioden"] {
-        content: url('https://fetysz.github.io/lioden/Liszczowowo/img/logo-full-2.png')
+        content: url('https://fetysz.github.io/lioden/Liszczowowo/img/logo-full-2.png');
       }
 
     /* Links */
@@ -58,7 +73,7 @@
       
       .navbar-default .navbar-nav>li>a:hover, 
       .navbar-default .navbar-nav>li>a:focus {
-        background: rgba(124, 171, 24, .3);
+        background: var(--lime-2)
 
         color: #000;
       }
@@ -81,11 +96,11 @@
       /* Success */
 
         .alert-success {
-          background: rgba(124, 171, 24, .3);
+          background: var(--lime-2)
 
-          border-color: rgba(124, 171, 24, .3);
+          border-color: var(--lime-2)
 
-          color: rgba(124, 171, 24, 1);
+          color: var(--lime-0);
         }
 
       /* Danger */
@@ -122,16 +137,16 @@
       /* Buttons */
 
         .select-control, button.button, input[type="button"], input[type="submit"], input[type="reset"] {
-          background: rgba(124, 171, 24, .5);
+          background: var(--lime-3);
 
-          border: 1px solid rgba(124, 171, 24, .5);
+          border: 1px solid var(--lime-3);
 
           color: #000;
-          text-shadow: 1px 1px 1px rgba(124, 171, 24, .5);
+          text-shadow: 1px 1px 1px var(--lime-3);
         }
 
         .select-control:hover, button.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
-          background: rgba(124, 171, 24, .75);
+          background: var(--lime-4);
 
           border: 1px solid transparent;
 
@@ -142,13 +157,13 @@
       /* Cards */
 
         div .left {
-          background: rgba(124, 171, 24, .3);
+          background: var(--lime-2)
         }
 
       /* Bookmark */
 
         .breadcrumb {
-          background: rgba(124, 171, 24, .5);
+          background: var(--lime-3);
         }
 
       /* Tables */
@@ -158,19 +173,19 @@
         }
 
         .table .top, .table th {
-          background: rgba(124, 171, 24, .5);
+          background: var(--lime-3);
 
           border-radius: 8px 8px 0 0;
         }
 
         .table .bottom {
-          background: rgba(124, 171, 24, .5);
+          background: var(--lime-3);
 
           border-radius: 0 0 8px 8px;
         }
 
         .table .left {
-          background: rgba(124, 171, 24, .15);
+          background: var(--lime-1);
         }
 
         .table td.right,
@@ -187,13 +202,13 @@
         }
 
         .table .left + td {
-          background: rgba(124, 171, 24, .15);
+          background: var(--lime-1);
         } 
 
         /* Inner table */
 
           .inner-table .left {
-            background: rgba(124, 171, 24, .5);
+            background: var(--lime-3);
           }
 
           .inner-table .right {
@@ -215,7 +230,7 @@
         /* Cave */
 
           .cave-grid {
-            background: rgba(124, 171, 24, .5);
+            background: var(--lime-3);
 
             border: 0;
           }
@@ -223,7 +238,7 @@
         /* Mound */
 
           .mound-grid {
-            background: rgba(124, 171, 24, .5);
+            background: var(--lime-3);
 
             border: 0;
           }
@@ -243,7 +258,7 @@
         /* Cards */
 
           .item {
-            background: rgba(124, 171, 24, .15);
+            background: var(--lime-1);
 
             border: 1px solid transparent;
             border-radius: 8px;
@@ -252,7 +267,7 @@
           }
 
           .item-header {
-            background: rgba(124, 171, 24, .15);
+            background: var(--lime-1);
 
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
@@ -264,14 +279,14 @@
 
         input[type="text"], 
         input[type="password"] {
-          background: rgba(124, 171, 24, .15);
+          background: var(--lime-1);
           border: 2px inset transparent
         }
 
         /* textarea */
 
           textarea {
-            background: rgba(124, 171, 24, .15);
+            background: var(--lime-1);
             border: 1px solid transparent;
             color: #ddd;
           }
@@ -279,7 +294,7 @@
         /* chooser */
 
           select {
-            background: rgba(124, 171, 24, .15);
+            background: var(--lime-1);
             border: 1px solid transparent;
             color: #ddd;
           }
@@ -298,7 +313,7 @@
       /* Panels */
 
         .panel {
-          background: rgba(124, 171, 24, .15);
+          background: var(--lime-1);
           border-radius: 8px;
         }
 
@@ -310,7 +325,7 @@
         /* Progress bars */
 
           .progress {
-            background: rgba(124, 171, 24, .15);
+            background: var(--lime-1);
           }
 
           .progress div {
@@ -321,7 +336,7 @@
       /* Chat */
 
         .s-chat-sidebar #label_currentChannel {
-          background: rgba(124, 171, 24, .15);
+          background: var(--lime-1);
 
           border: 1px solid transparent;
           border-radius: 8px;
@@ -332,13 +347,13 @@
         }
 
         #chatMessagePinned.s-chat-message__pinned {
-          background: rgba(124, 171, 24, .15) url(//static.lioden.com/images/layout/sticky.png) no-repeat 10px 6px;
+          background: var(--lime-1) url(//static.lioden.com/images/layout/sticky.png) no-repeat 10px 6px;
           color: #ddd;
           border-bottom: 2px solid transparent!important;
         }
 
         .s-chat-message:nth-child(odd) {
-          background: rgba(124, 171, 24, .15);
+          background: var(--lime-1);
         }
 
         .s-chat-message:nth-child(even) {
@@ -350,7 +365,7 @@
         /* Emote Picker */
 
           .emoteList {
-            background: rgba(124, 171, 24, .5);
+            background: var(--lime-3);
 
             border: 2px solid transparent;
             border-radius: 8px;
@@ -362,7 +377,7 @@
           }
 
           .s-chat-sidebar .emoteList::after {
-            border-top-color: rgba(124, 171, 24, .5);
+            border-top-color: var(--lime-3);
           }
 
 /* Cave Exc. */
